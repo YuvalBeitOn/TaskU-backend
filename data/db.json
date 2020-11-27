@@ -266,14 +266,14 @@
               "members": [],
               "dueDate": null,
               "status": {
-                "id": "801",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "803",
+                "color": "#fdab3d",
+                "txt": "Working on it"
               },
               "priority": {
-                "id": "704",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "701",
+                "color": " #90d5ffd9",
+                "txt": "Low"
               },
               "posts": []
             },
@@ -283,14 +283,14 @@
               "members": [],
               "dueDate": null,
               "status": {
-                "id": "801",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "803",
+                "color": "#fdab3d",
+                "txt": "Working on it"
               },
               "priority": {
-                "id": "704",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "701",
+                "color": " #90d5ffd9",
+                "txt": "Low"
               },
               "posts": []
             }
@@ -307,14 +307,14 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "id": "801",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "805",
+                "color": "#00ca72",
+                "txt": "Done"
               },
               "priority": {
-                "id": "704",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "702",
+                "color": "#c137c1ba",
+                "txt": "Medium"
               },
               "posts": []
             },
