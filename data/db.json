@@ -82,102 +82,38 @@
           "name": "BackEnd",
           "tasks": [
             {
-              "id": "840",
-              "txt": "txt",
-              "members": [
-                {
-                  "_id": "301",
-                  "fullname": "Puki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "302",
-                  "fullname": "Muki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "303",
-                  "fullname": "Loki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "304",
-                  "fullname": "Nuki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                }
-              ],
-              "dueDate": 1606338507340,
+              "id": "842",
+              "txt": "hello",
+              "members": [],
+              "dueDate": "",
               "status": {
-                "id": "803",
-                "color": "yellow",
-                "txt": "Working on it"
+                "id": "804",
+                "color": "red",
+                "txt": "Stuck"
               },
               "priority": {
-                "id": "702",
-                "color": "purple",
-                "txt": "Medium"
+                "id": "704",
+                "color": "gray",
+                "txt": ""
               },
-              "posts": [
-                {
-                  "id": "850",
-                  "txt": "txt",
-                  "imgUrl": "https://www.img.com/1.png",
-                  "byUser": {
-                    "_id": "406",
-                    "fullname": "Nuki Ben David",
-                    "imgUrl": "https://www.img.com/101.png"
-                  }
-                }
-              ]
+              "posts": []
             },
             {
-              "id": "842",
-              "txt": "txt",
-              "members": [
-                {
-                  "_id": "301",
-                  "fullname": "Puki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "302",
-                  "fullname": "Muki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "303",
-                  "fullname": "Loki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "304",
-                  "fullname": "Nuki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                }
-              ],
-              "dueDate": 1606338507340,
+              "txt": "yuval",
+              "members": [],
+              "dueDate": "",
               "status": {
-                "id": "803",
-                "color": "yellow",
-                "txt": "Working on it"
+                "id": "804",
+                "color": "red",
+                "txt": "Stuck"
               },
               "priority": {
                 "id": "702",
                 "color": "purple",
                 "txt": "Medium"
               },
-              "posts": [
-                {
-                  "id": "850",
-                  "txt": "txt",
-                  "imgUrl": "https://www.img.com/1.png",
-                  "byUser": {
-                    "_id": "406",
-                    "fullname": "Nuki Ben David",
-                    "imgUrl": "https://www.img.com/101.png"
-                  }
-                }
-              ]
+              "posts": [],
+              "id": "dKRdP"
             }
           ]
         },
@@ -189,55 +125,539 @@
             {
               "id": "920",
               "txt": "txt",
-              "members": [
-                {
-                  "_id": "301",
-                  "fullname": "Puki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "302",
-                  "fullname": "Muki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "303",
-                  "fullname": "Loki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                },
-                {
-                  "_id": "304",
-                  "fullname": "Nuki Ben David",
-                  "imgUrl": "https://www.img.com/101.png"
-                }
-              ],
-              "dueDate": 1606338507340,
+              "members": [],
+              "dueDate": "2020-11-03",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "701",
+                "color": "lightblue",
+                "txt": "Low"
+              },
+              "posts": []
+            }
+          ]
+        },
+        {
+          "color": "#FFFFFF",
+          "name": "New Group",
+          "tasks": [
+            {
+              "txt": "tjjjjjjjxt",
+              "members": [],
+              "dueDate": "",
               "status": {
                 "id": "803",
                 "color": "yellow",
                 "txt": "Working on it"
               },
               "priority": {
-                "id": "702",
-                "color": "purple",
-                "txt": "Medium"
+                "color": "gray",
+                "txt": "",
+                "id": "mdvgO"
               },
-              "posts": [
-                {
-                  "id": "850",
-                  "txt": "txt",
-                  "imgUrl": "https://www.img.com/1.png",
-                  "byUser": {
-                    "_id": "406",
-                    "fullname": "Nuki Ben David",
-                    "imgUrl": "https://www.img.com/101.png"
-                  }
-                }
-              ]
+              "posts": [],
+              "id": "CMRNV"
+            },
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "vfuT5"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "NUtls"
+              },
+              "posts": [],
+              "id": "XQFKX"
+            }
+          ],
+          "id": "WAz0F"
+        }
+      ]
+    },
+    {
+      "name": "myBoard",
+      "creator": {
+        "_id": "304",
+        "fullname": "Nuki Ben David",
+        "imgUrl": "https://www.img.com/101.png"
+      },
+      "statuses": [
+        {
+          "id": "801",
+          "color": "gray",
+          "txt": ""
+        },
+        {
+          "id": "803",
+          "color": "yellow",
+          "txt": "Working on it"
+        },
+        {
+          "id": "804",
+          "color": "red",
+          "txt": "Stuck"
+        },
+        {
+          "id": "805",
+          "color": "green",
+          "txt": "Done"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "704",
+          "color": "gray",
+          "txt": ""
+        },
+        {
+          "id": "701",
+          "color": "lightblue",
+          "txt": "Low"
+        },
+        {
+          "id": "702",
+          "color": "purple",
+          "txt": "Medium"
+        },
+        {
+          "id": "703",
+          "color": "red",
+          "txt": "High"
+        }
+      ],
+      "activities": [],
+      "members": [],
+      "groups": [
+        {
+          "id": "401",
+          "color": "#ffffff",
+          "name": "BackEnd",
+          "tasks": [
+            {
+              "id": "840",
+              "txt": "heeeeeee",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            },
+            {
+              "id": "842",
+              "txt": "txdddddt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            }
+          ]
+        },
+        {
+          "id": "402",
+          "color": "#ffffff",
+          "name": "Frontend",
+          "tasks": [
+            {
+              "id": "920",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            },
+            {
+              "txt": "dddddddddddd",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "pUaZT"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "O0bE1"
+              },
+              "posts": [],
+              "id": "r6uF8"
+            },
+            {
+              "txt": "",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "s7jDu"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "fGkYE"
+              },
+              "posts": [],
+              "id": "rRRob"
+            },
+            {
+              "txt": "dddddd",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "jpXni"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "EJKUM"
+              },
+              "posts": [],
+              "id": "DYhW7"
+            },
+            {
+              "txt": "dddddddddddddd",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "yQhZC"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "vbPCt"
+              },
+              "posts": [],
+              "id": "2kA46"
+            }
+          ]
+        },
+        {
+          "color": "#FFFFFF",
+          "name": "New Group",
+          "tasks": [
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "4VF2K"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "ZxUoe"
+              },
+              "posts": [],
+              "id": "N54ht"
+            },
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "xCBeI"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "NEGBb"
+              },
+              "posts": [],
+              "id": "pSHmO"
+            }
+          ],
+          "id": "qwwNh"
+        }
+      ],
+      "_id": "ssNl8Rw"
+    },
+    {
+      "name": "myBoard",
+      "creator": {
+        "_id": "304",
+        "fullname": "Nuki Ben David",
+        "imgUrl": "https://www.img.com/101.png"
+      },
+      "statuses": [
+        {
+          "id": "801",
+          "color": "gray",
+          "txt": ""
+        },
+        {
+          "id": "803",
+          "color": "yellow",
+          "txt": "Working on it"
+        },
+        {
+          "id": "804",
+          "color": "red",
+          "txt": "Stuck"
+        },
+        {
+          "id": "805",
+          "color": "green",
+          "txt": "Done"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "704",
+          "color": "gray",
+          "txt": ""
+        },
+        {
+          "id": "701",
+          "color": "lightblue",
+          "txt": "Low"
+        },
+        {
+          "id": "702",
+          "color": "purple",
+          "txt": "Medium"
+        },
+        {
+          "id": "703",
+          "color": "red",
+          "txt": "High"
+        }
+      ],
+      "activities": [],
+      "members": [],
+      "groups": [
+        {
+          "id": "401",
+          "color": "#ffffff",
+          "name": "BackEnd",
+          "tasks": [
+            {
+              "id": "840",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            },
+            {
+              "id": "842",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            }
+          ]
+        },
+        {
+          "id": "402",
+          "color": "#ffffff",
+          "name": "Frontend",
+          "tasks": [
+            {
+              "id": "920",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
             }
           ]
         }
-      ]
+      ],
+      "_id": "kr5Yxf5"
+    },
+    {
+      "name": "myBoard",
+      "creator": {
+        "_id": "304",
+        "fullname": "Nuki Ben David",
+        "imgUrl": "https://www.img.com/101.png"
+      },
+      "statuses": [
+        {
+          "id": "801",
+          "color": "gray",
+          "txt": ""
+        },
+        {
+          "id": "803",
+          "color": "yellow",
+          "txt": "Working on it"
+        },
+        {
+          "id": "804",
+          "color": "red",
+          "txt": "Stuck"
+        },
+        {
+          "id": "805",
+          "color": "green",
+          "txt": "Done"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "704",
+          "color": "gray",
+          "txt": ""
+        },
+        {
+          "id": "701",
+          "color": "lightblue",
+          "txt": "Low"
+        },
+        {
+          "id": "702",
+          "color": "purple",
+          "txt": "Medium"
+        },
+        {
+          "id": "703",
+          "color": "red",
+          "txt": "High"
+        }
+      ],
+      "activities": [],
+      "members": [],
+      "groups": [
+        {
+          "id": "401",
+          "color": "#ffffff",
+          "name": "BackEnd",
+          "tasks": [
+            {
+              "id": "840",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            },
+            {
+              "id": "842",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            }
+          ]
+        },
+        {
+          "id": "402",
+          "color": "#ffffff",
+          "name": "Frontend",
+          "tasks": [
+            {
+              "id": "920",
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "801",
+                "color": "gray",
+                "txt": ""
+              },
+              "priority": {
+                "id": "704",
+                "color": "gray",
+                "txt": ""
+              },
+              "posts": []
+            }
+          ]
+        }
+      ],
+      "_id": "NmouDt_"
     }
   ],
   "user": [
