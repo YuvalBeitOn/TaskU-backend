@@ -11,44 +11,44 @@
       "statuses": [
         {
           "id": "801",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "803",
-          "color": "yellow",
+          "color": "#fdab3dow",
           "txt": "Working on it"
         },
         {
           "id": "804",
-          "color": "red",
+          "color": "#e44258",
           "txt": "Stuck"
         },
         {
           "id": "805",
-          "color": "green",
+          "color": "#00ca72",
           "txt": "Done"
         }
       ],
       "priorities": [
         {
           "id": "704",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "701",
-          "color": "lightblue",
+          "color": " #9acddeb3blue",
           "txt": "Low"
         },
         {
           "id": "702",
-          "color": "purple",
+          "color": "#c137c1ba",
           "txt": "Medium"
         },
         {
           "id": "703",
-          "color": "red",
+          "color": "#e44258",
           "txt": "High"
         }
       ],
@@ -88,12 +88,12 @@
               "dueDate": "",
               "status": {
                 "id": "804",
-                "color": "red",
+                "color": "#e44258",
                 "txt": "Stuck"
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -104,12 +104,12 @@
               "dueDate": "",
               "status": {
                 "id": "804",
-                "color": "red",
+                "color": "#e44258",
                 "txt": "Stuck"
               },
               "priority": {
                 "id": "702",
-                "color": "purple",
+                "color": "#c137c1ba",
                 "txt": "Medium"
               },
               "posts": [],
@@ -129,12 +129,12 @@
               "dueDate": "2020-11-03",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "701",
-                "color": "lightblue",
+                "color": " #9acddeb3blue",
                 "txt": "Low"
               },
               "posts": []
@@ -151,11 +151,11 @@
               "dueDate": "",
               "status": {
                 "id": "803",
-                "color": "yellow",
+                "color": "#fdab3dow",
                 "txt": "Working on it"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "mdvgO"
               },
@@ -167,12 +167,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "vfuT5"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "NUtls"
               },
@@ -194,44 +194,44 @@
       "statuses": [
         {
           "id": "801",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "803",
-          "color": "yellow",
+          "color": "#fdab3dow",
           "txt": "Working on it"
         },
         {
           "id": "804",
-          "color": "red",
+          "color": "#e44258",
           "txt": "Stuck"
         },
         {
           "id": "805",
-          "color": "green",
+          "color": "#00ca72",
           "txt": "Done"
         }
       ],
       "priorities": [
         {
           "id": "704",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "701",
-          "color": "lightblue",
+          "color": " #9acddeb3blue",
           "txt": "Low"
         },
         {
           "id": "702",
-          "color": "purple",
+          "color": "#c137c1ba",
           "txt": "Medium"
         },
         {
           "id": "703",
-          "color": "red",
+          "color": "#e44258",
           "txt": "High"
         }
       ],
@@ -250,12 +250,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -267,12 +267,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -291,12 +291,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -306,12 +306,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "pUaZT"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "O0bE1"
               },
@@ -323,12 +323,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "s7jDu"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "fGkYE"
               },
@@ -340,12 +340,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "jpXni"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "EJKUM"
               },
@@ -357,12 +357,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "yQhZC"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "vbPCt"
               },
@@ -380,12 +380,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "4VF2K"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "ZxUoe"
               },
@@ -397,12 +397,12 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "xCBeI"
               },
               "priority": {
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": "",
                 "id": "NEGBb"
               },
@@ -425,44 +425,44 @@
       "statuses": [
         {
           "id": "801",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "803",
-          "color": "yellow",
+          "color": "#fdab3dow",
           "txt": "Working on it"
         },
         {
           "id": "804",
-          "color": "red",
+          "color": "#e44258",
           "txt": "Stuck"
         },
         {
           "id": "805",
-          "color": "green",
+          "color": "#00ca72",
           "txt": "Done"
         }
       ],
       "priorities": [
         {
           "id": "704",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "701",
-          "color": "lightblue",
+          "color": " #9acddeb3blue",
           "txt": "Low"
         },
         {
           "id": "702",
-          "color": "purple",
+          "color": "#c137c1ba",
           "txt": "Medium"
         },
         {
           "id": "703",
-          "color": "red",
+          "color": "#e44258",
           "txt": "High"
         }
       ],
@@ -481,12 +481,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -498,12 +498,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -522,12 +522,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -547,44 +547,44 @@
       "statuses": [
         {
           "id": "801",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "803",
-          "color": "yellow",
+          "color": "#fdab3dow",
           "txt": "Working on it"
         },
         {
           "id": "804",
-          "color": "red",
+          "color": "#e44258",
           "txt": "Stuck"
         },
         {
           "id": "805",
-          "color": "green",
+          "color": "#00ca72",
           "txt": "Done"
         }
       ],
       "priorities": [
         {
           "id": "704",
-          "color": "gray",
+          "color": "#a8a8a8",
           "txt": ""
         },
         {
           "id": "701",
-          "color": "lightblue",
+          "color": " #9acddeb3blue",
           "txt": "Low"
         },
         {
           "id": "702",
-          "color": "purple",
+          "color": "#c137c1ba",
           "txt": "Medium"
         },
         {
           "id": "703",
-          "color": "red",
+          "color": "#e44258",
           "txt": "High"
         }
       ],
@@ -603,12 +603,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -620,12 +620,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
@@ -644,12 +644,12 @@
               "dueDate": "",
               "status": {
                 "id": "801",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "priority": {
                 "id": "704",
-                "color": "gray",
+                "color": "#a8a8a8",
                 "txt": ""
               },
               "posts": []
