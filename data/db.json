@@ -16,7 +16,7 @@
         },
         {
           "id": "803",
-          "color": "#fdab3dow",
+          "color": "#fdab3d",
           "txt": "Working on it"
         },
         {
@@ -38,7 +38,7 @@
         },
         {
           "id": "701",
-          "color": " #9acddeb3blue",
+          "color": " #90d5ffd9",
           "txt": "Low"
         },
         {
@@ -79,7 +79,7 @@
         {
           "id": "401",
           "color": "#ffffff",
-          "name": "BackEnd",
+          "name": "Backend",
           "tasks": [
             {
               "id": "842",
@@ -87,9 +87,9 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "id": "804",
-                "color": "#e44258",
-                "txt": "Stuck"
+                "id": "803",
+                "color": "#fdab3d",
+                "txt": "Working on it"
               },
               "priority": {
                 "id": "704",
@@ -114,6 +114,23 @@
               },
               "posts": [],
               "id": "dKRdP"
+            },
+            {
+              "txt": "hhhhhhhhh",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "id": "805",
+                "color": "#00ca72",
+                "txt": "Done"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "25guA"
+              },
+              "posts": [],
+              "id": "nnqUL"
             }
           ]
         },
@@ -128,13 +145,13 @@
               "members": [],
               "dueDate": "2020-11-03",
               "status": {
-                "id": "801",
-                "color": "#a8a8a8",
-                "txt": ""
+                "id": "805",
+                "color": "#00ca72",
+                "txt": "Done"
               },
               "priority": {
                 "id": "701",
-                "color": " #9acddeb3blue",
+                "color": " #90d5ffd9",
                 "txt": "Low"
               },
               "posts": []
@@ -151,13 +168,13 @@
               "dueDate": "",
               "status": {
                 "id": "803",
-                "color": "#fdab3dow",
+                "color": "#fdab3d",
                 "txt": "Working on it"
               },
               "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "mdvgO"
+                "id": "701",
+                "color": " #90d5ffd9",
+                "txt": "Low"
               },
               "posts": [],
               "id": "CMRNV"
@@ -167,14 +184,14 @@
               "members": [],
               "dueDate": "",
               "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vfuT5"
+                "id": "805",
+                "color": "#00ca72",
+                "txt": "Done"
               },
               "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "NUtls"
+                "id": "702",
+                "color": "#c137c1ba",
+                "txt": "Medium"
               },
               "posts": [],
               "id": "XQFKX"
@@ -199,7 +216,7 @@
         },
         {
           "id": "803",
-          "color": "#fdab3dow",
+          "color": "#fdab3d",
           "txt": "Working on it"
         },
         {
@@ -221,7 +238,7 @@
         },
         {
           "id": "701",
-          "color": " #9acddeb3blue",
+          "color": " #90d5ffd9",
           "txt": "Low"
         },
         {
@@ -241,13 +258,13 @@
         {
           "id": "401",
           "color": "#ffffff",
-          "name": "BackEnd",
+          "name": "Backend",
           "tasks": [
             {
               "id": "840",
               "txt": "heeeeeee",
               "members": [],
-              "dueDate": "",
+              "dueDate": null,
               "status": {
                 "id": "801",
                 "color": "#a8a8a8",
@@ -264,7 +281,7 @@
               "id": "842",
               "txt": "txdddddt",
               "members": [],
-              "dueDate": "",
+              "dueDate": null,
               "status": {
                 "id": "801",
                 "color": "#a8a8a8",
@@ -411,6 +428,47 @@
             }
           ],
           "id": "qwwNh"
+        },
+        {
+          "color": "#FFFFFF",
+          "name": "New Group",
+          "tasks": [
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "6616H"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "i2rjN"
+              },
+              "posts": [],
+              "id": "Djw6P"
+            },
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "kvtF5"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "0TUMD"
+              },
+              "posts": [],
+              "id": "4E41w"
+            }
+          ],
+          "id": "9yaH9"
         }
       ],
       "_id": "ssNl8Rw"
@@ -430,7 +488,7 @@
         },
         {
           "id": "803",
-          "color": "#fdab3dow",
+          "color": "#fdab3d",
           "txt": "Working on it"
         },
         {
@@ -452,7 +510,7 @@
         },
         {
           "id": "701",
-          "color": " #9acddeb3blue",
+          "color": " #90d5ffd9",
           "txt": "Low"
         },
         {
@@ -472,7 +530,7 @@
         {
           "id": "401",
           "color": "#ffffff",
-          "name": "BackEnd",
+          "name": "Backend",
           "tasks": [
             {
               "id": "840",
@@ -552,7 +610,7 @@
         },
         {
           "id": "803",
-          "color": "#fdab3dow",
+          "color": "#fdab3d",
           "txt": "Working on it"
         },
         {
@@ -574,7 +632,7 @@
         },
         {
           "id": "701",
-          "color": " #9acddeb3blue",
+          "color": " #90d5ffd9",
           "txt": "Low"
         },
         {
@@ -594,7 +652,7 @@
         {
           "id": "401",
           "color": "#ffffff",
-          "name": "BackEnd",
+          "name": "Backend",
           "tasks": [
             {
               "id": "840",
