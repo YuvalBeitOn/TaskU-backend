@@ -79,13 +79,13 @@
         {
           "id": "401",
           "color": "#ffffff",
-          "name": "Backend",
+          "name": "hello",
           "tasks": [
             {
               "id": "842",
-              "txt": "hello",
+              "txt": "hellojjjjjjj",
               "members": [],
-              "dueDate": "",
+              "dueDate": "2020-11-04T22:00:00.000Z",
               "status": {
                 "id": "803",
                 "color": "#fdab3d",
@@ -118,7 +118,7 @@
             {
               "txt": "hhhhhhhhh",
               "members": [],
-              "dueDate": "",
+              "dueDate": null,
               "status": {
                 "id": "805",
                 "color": "#00ca72",
@@ -131,73 +131,42 @@
               },
               "posts": [],
               "id": "nnqUL"
-            }
-          ]
-        },
-        {
-          "id": "402",
-          "color": "#ffffff",
-          "name": "Frontend",
-          "tasks": [
-            {
-              "id": "920",
-              "txt": "txt",
-              "members": [],
-              "dueDate": "2020-11-03",
-              "status": {
-                "id": "805",
-                "color": "#00ca72",
-                "txt": "Done"
-              },
-              "priority": {
-                "id": "701",
-                "color": " #90d5ffd9",
-                "txt": "Low"
-              },
-              "posts": []
-            }
-          ]
-        },
-        {
-          "color": "#FFFFFF",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "tjjjjjjjxt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "id": "803",
-                "color": "#fdab3d",
-                "txt": "Working on it"
-              },
-              "priority": {
-                "id": "701",
-                "color": " #90d5ffd9",
-                "txt": "Low"
-              },
-              "posts": [],
-              "id": "CMRNV"
             },
             {
-              "txt": "txt",
+              "txt": "ככככככככככ",
               "members": [],
               "dueDate": "",
               "status": {
-                "id": "805",
-                "color": "#00ca72",
-                "txt": "Done"
+                "color": "gray",
+                "txt": "",
+                "id": "p1P45"
               },
               "priority": {
-                "id": "702",
-                "color": "#c137c1ba",
-                "txt": "Medium"
+                "color": "gray",
+                "txt": "",
+                "id": "kxo78"
               },
               "posts": [],
-              "id": "XQFKX"
+              "id": "d6dtD"
+            },
+            {
+              "txt": "ככככככ",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "ZZOMZ"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "u8XwC"
+              },
+              "posts": [],
+              "id": "pD0OG"
             }
-          ],
-          "id": "WAz0F"
+          ]
         }
       ]
     },
@@ -253,7 +222,16 @@
         }
       ],
       "activities": [],
-      "members": [],
+      "members": [
+        {
+          "_id": "302",
+          "fullName": "Muki Ben David",
+          "imgUrl": "https://www.img.com/101.png",
+          "password": "pass",
+          "email": "muki@bendavid.com",
+          "isAdmin": false
+        }
+      ],
       "groups": [
         {
           "id": "401",
@@ -263,6 +241,23 @@
             {
               "id": "840",
               "txt": "heeeeeee",
+              "members": [],
+              "dueDate": null,
+              "status": {
+                "id": "804",
+                "color": "#e44258",
+                "txt": "Stuck"
+              },
+              "priority": {
+                "id": "702",
+                "color": "#c137c1ba",
+                "txt": "Medium"
+              },
+              "posts": []
+            },
+            {
+              "id": "842",
+              "txt": "txdddכככככככככככddt",
               "members": [],
               "dueDate": null,
               "status": {
@@ -278,21 +273,21 @@
               "posts": []
             },
             {
-              "id": "842",
-              "txt": "txdddddt",
+              "txt": "מייייייי",
               "members": [],
-              "dueDate": null,
+              "dueDate": "",
               "status": {
-                "id": "803",
-                "color": "#fdab3d",
-                "txt": "Working on it"
+                "color": "gray",
+                "txt": "",
+                "id": "GJDIH"
               },
               "priority": {
-                "id": "701",
-                "color": " #90d5ffd9",
-                "txt": "Low"
+                "color": "gray",
+                "txt": "",
+                "id": "NlURT"
               },
-              "posts": []
+              "posts": [],
+              "id": "ug5h3"
             }
           ]
         },
@@ -469,6 +464,47 @@
             }
           ],
           "id": "9yaH9"
+        },
+        {
+          "color": "#FFFFFF",
+          "name": "New Group",
+          "tasks": [
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "slbd8"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "sYMBv"
+              },
+              "posts": [],
+              "id": "OgMEx"
+            },
+            {
+              "txt": "txt",
+              "members": [],
+              "dueDate": "",
+              "status": {
+                "color": "gray",
+                "txt": "",
+                "id": "dJyLP"
+              },
+              "priority": {
+                "color": "gray",
+                "txt": "",
+                "id": "Qn8JY"
+              },
+              "posts": [],
+              "id": "Uwy13"
+            }
+          ],
+          "id": "RTS2I"
         }
       ],
       "_id": "ssNl8Rw"
