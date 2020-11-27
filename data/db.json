@@ -55,36 +55,41 @@
       "activities": [],
       "members": [
         {
-          "_id": "301",
-          "fullName": "Puki Ben David",
-          "imgUrl": "https://www.img.com/101.png"
-        },
-        {
-          "_id": "302",
-          "fullName": "Muki Ben David",
-          "imgUrl": "https://www.img.com/101.png"
-        },
-        {
-          "_id": "303",
-          "fullName": "Loki Ben David",
-          "imgUrl": "https://www.img.com/101.png"
-        },
-        {
           "_id": "304",
           "fullName": "Nuki Ben David",
-          "imgUrl": "https://www.img.com/101.png"
+          "imgUrl": "https://www.img.com/101.png",
+          "password": "pass",
+          "email": "muki@bendavid.com",
+          "isAdmin": false
+        },
+        {
+          "_id": "301",
+          "fullName": "Puki Ben David",
+          "imgUrl": "https://www.img.com/101.png",
+          "password": "pass",
+          "email": "muki@bendavid.com",
+          "isAdmin": false
         }
       ],
       "groups": [
         {
           "id": "401",
-          "color": "#ffffff",
+          "color": "pink",
           "name": "Backend",
           "tasks": [
             {
               "id": "842",
               "txt": "hello",
-              "members": [],
+              "members": [
+                {
+                  "_id": "302",
+                  "fullName": "Muki Ben David",
+                  "imgUrl": "https://www.img.com/101.png",
+                  "password": "pass",
+                  "email": "muki@bendavid.com",
+                  "isAdmin": false
+                }
+              ],
               "dueDate": "",
               "status": {
                 "id": "803",
@@ -100,7 +105,16 @@
             },
             {
               "txt": "yuval",
-              "members": [],
+              "members": [
+                {
+                  "_id": "301",
+                  "fullName": "Puki Ben David",
+                  "imgUrl": "https://www.img.com/101.png",
+                  "password": "pass",
+                  "email": "muki@bendavid.com",
+                  "isAdmin": false
+                }
+              ],
               "dueDate": "",
               "status": {
                 "id": "804",
@@ -136,14 +150,31 @@
         },
         {
           "id": "402",
-          "color": "#ffffff",
+          "color": "black",
           "name": "Frontend",
           "tasks": [
             {
               "id": "920",
               "txt": "txt",
-              "members": [],
-              "dueDate": "2020-11-03",
+              "members": [
+                {
+                  "_id": "301",
+                  "fullName": "Puki Ben David",
+                  "imgUrl": "https://www.img.com/101.png",
+                  "password": "pass",
+                  "email": "muki@bendavid.com",
+                  "isAdmin": false
+                },
+                {
+                  "_id": "302",
+                  "fullName": "Muki Ben David",
+                  "imgUrl": "https://www.img.com/101.png",
+                  "password": "pass",
+                  "email": "muki@bendavid.com",
+                  "isAdmin": false
+                }
+              ],
+              "dueDate": null,
               "status": {
                 "id": "805",
                 "color": "#00ca72",
@@ -159,7 +190,7 @@
           ]
         },
         {
-          "color": "#FFFFFF",
+          "color": "black",
           "name": "New Group",
           "tasks": [
             {
@@ -257,7 +288,7 @@
       "groups": [
         {
           "id": "401",
-          "color": "#ffffff",
+          "color": "pink",
           "name": "Backend",
           "tasks": [
             {
@@ -298,7 +329,7 @@
         },
         {
           "id": "402",
-          "color": "#ffffff",
+          "color": "black",
           "name": "Frontend",
           "tasks": [
             {
@@ -389,7 +420,7 @@
           ]
         },
         {
-          "color": "#FFFFFF",
+          "color": "black",
           "name": "New Group",
           "tasks": [
             {
@@ -430,7 +461,7 @@
           "id": "qwwNh"
         },
         {
-          "color": "#FFFFFF",
+          "color": "black",
           "name": "New Group",
           "tasks": [
             {
@@ -529,7 +560,7 @@
       "groups": [
         {
           "id": "401",
-          "color": "#ffffff",
+          "color": "black",
           "name": "Backend",
           "tasks": [
             {
@@ -570,7 +601,7 @@
         },
         {
           "id": "402",
-          "color": "#ffffff",
+          "color": "black",
           "name": "Frontend",
           "tasks": [
             {
@@ -651,7 +682,7 @@
       "groups": [
         {
           "id": "401",
-          "color": "#ffffff",
+          "color": "black",
           "name": "Backend",
           "tasks": [
             {
@@ -692,7 +723,7 @@
         },
         {
           "id": "402",
-          "color": "#ffffff",
+          "color": "black",
           "name": "Frontend",
           "tasks": [
             {
