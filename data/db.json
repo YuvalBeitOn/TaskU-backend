@@ -5,7 +5,7 @@
       "name": "sprint2",
       "creator": {
         "_id": "304",
-        "fullname": "Nuki Ben David",
+        "fullName": "Nuki Ben David",
         "imgUrl": "https://www.img.com/101.png"
       },
       "statuses": [
@@ -56,22 +56,22 @@
       "members": [
         {
           "_id": "301",
-          "fullname": "Puki Ben David",
+          "fullName": "Puki Ben David",
           "imgUrl": "https://www.img.com/101.png"
         },
         {
           "_id": "302",
-          "fullname": "Muki Ben David",
+          "fullName": "Muki Ben David",
           "imgUrl": "https://www.img.com/101.png"
         },
         {
           "_id": "303",
-          "fullname": "Loki Ben David",
+          "fullName": "Loki Ben David",
           "imgUrl": "https://www.img.com/101.png"
         },
         {
           "_id": "304",
-          "fullname": "Nuki Ben David",
+          "fullName": "Nuki Ben David",
           "imgUrl": "https://www.img.com/101.png"
         }
       ],
@@ -205,7 +205,7 @@
       "name": "myBoard",
       "creator": {
         "_id": "304",
-        "fullname": "Nuki Ben David",
+        "fullName": "Nuki Ben David",
         "imgUrl": "https://www.img.com/101.png"
       },
       "statuses": [
@@ -477,7 +477,7 @@
       "name": "myBoard",
       "creator": {
         "_id": "304",
-        "fullname": "Nuki Ben David",
+        "fullName": "Nuki Ben David",
         "imgUrl": "https://www.img.com/101.png"
       },
       "statuses": [
@@ -599,7 +599,7 @@
       "name": "myBoard",
       "creator": {
         "_id": "304",
-        "fullname": "Nuki Ben David",
+        "fullName": "Nuki Ben David",
         "imgUrl": "https://www.img.com/101.png"
       },
       "statuses": [
@@ -721,7 +721,7 @@
   "user": [
     {
       "_id": "301",
-      "fullname": "Puki Ben David",
+      "fullName": "Puki Ben David",
       "imgUrl": "https://www.img.com/101.png",
       "password": "pass",
       "email": "muki@bendavid.com",
@@ -729,7 +729,7 @@
     },
     {
       "_id": "302",
-      "fullname": "Muki Ben David",
+      "fullName": "Muki Ben David",
       "imgUrl": "https://www.img.com/101.png",
       "password": "pass",
       "email": "muki@bendavid.com",
@@ -737,7 +737,7 @@
     },
     {
       "_id": "303",
-      "fullname": "Loki Ben David",
+      "fullName": "Loki Ben David",
       "imgUrl": "https://www.img.com/101.png",
       "password": "pass",
       "email": "muki@bendavid.com",
@@ -745,7 +745,7 @@
     },
     {
       "_id": "304",
-      "fullname": "Nuki Ben David",
+      "fullName": "Nuki Ben David",
       "imgUrl": "https://www.img.com/101.png",
       "password": "pass",
       "email": "muki@bendavid.com",
