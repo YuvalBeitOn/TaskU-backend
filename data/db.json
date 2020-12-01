@@ -1,3429 +1,2570 @@
 {
   "board": [
-    {
-      "name": "My New Board",
-      "description": "",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "e2XWU"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "emm8c"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "vdCgN"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "R8Iae"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "OTZOk"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "6pG8P"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "oC0kx"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "urXOR"
-        }
-      ],
-      "activities": [],
-      "members": [
-        {
-          "_id": "302",
-          "fullName": "Muki Ben David",
-          "imgUrl": "https://www.img.com/101.png",
-          "password": "pass",
-          "email": "muki@bendavid.com",
-          "isAdmin": false
-        },
-        {
-          "_id": "301",
-          "fullName": "Puki Ben David",
-          "imgUrl": "https://www.img.com/101.png",
-          "password": "pass",
-          "email": "muki@bendavid.com",
-          "isAdmin": false
-        }
-      ],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New group",
-          "tasks": [
-            {
-              "txt": "Empty task 1",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#fdab3d",
-                "txt": "Working on it",
-                "id": "e5xpp"
-              },
-              "priority": {
-                "color": "#e44258",
-                "txt": "High",
-                "id": "1Jx3W"
-              },
-              "posts": [
-                {
-                  "id": "NgNiE",
-                  "txt": "Test",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "Y29lu",
-                  "txt": "a",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "G17Ug",
-                  "txt": "sss",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "wjqdz",
-                  "txt": "sss",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [
-                {
-                  "id": "WVFgZ",
-                  "txt": "Task status was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605510622
-                },
-                {
-                  "id": "r5L3I",
-                  "txt": "Task priority was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605517290
-                },
-                {
-                  "id": "7iLv6",
-                  "txt": "Task status was updated from Stuck to 'Working on it'",
-                  "createdAt": 1606667652295,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "id": "y3O4U"
-            },
-            {
-              "txt": "Empty task 2",
-              "members": [
-                {
-                  "_id": "302",
-                  "fullName": "Muki Ben David",
-                  "imgUrl": "https://www.img.com/101.png",
-                  "password": "pass",
-                  "email": "muki@bendavid.com",
-                  "isAdmin": false
-                }
-              ],
-              "dueDate": "",
-              "status": {
-                "color": "#00ca72",
-                "txt": "Done",
-                "id": "e5xpp"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EJDpS"
-              },
-              "posts": [
-                {
-                  "id": "QSagT",
-                  "txt": "sss",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [
-                {
-                  "id": "N8QVu",
-                  "txt": "Task status was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605520546
-                },
-                {
-                  "id": "jih2r",
-                  "txt": "Task status was updated from Stuck to 'Done'",
-                  "createdAt": 1606667654360,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "u2Gze",
-                  "txt": "Member Muki Ben David was added to task",
-                  "createdAt": 1606736639328,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "DOa66",
-                  "txt": "Member Puki Ben David was added to task",
-                  "createdAt": 1606736644108,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "SRUJk",
-                  "txt": "Member Puki Ben David was removed from task",
-                  "createdAt": 1606736652210,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "id": "dfgur"
-            },
-            {
-              "txt": "task",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#fdab3d",
-                "txt": "Working on it",
-                "id": "NtG9v"
-              },
-              "priority": {
-                "color": "#e44258",
-                "txt": "High",
-                "id": "TELFD"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "W2OHo",
-                  "txt": "Task 'task' added",
-                  "createdAt": 1606667657211,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "XURTn",
-                  "txt": "Task status was updated from  to 'Working on it'",
-                  "createdAt": 1606667659336,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "mrMZu",
-                  "txt": "Task priority was updated from  to 'High'",
-                  "createdAt": 1606667661127,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "id": "JoFZL"
-            }
-          ],
-          "id": "A8Bfl"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "Orel   ssss",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vq9YL"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Tv2Sn"
-              },
-              "posts": [
-                {
-                  "id": "nO5y6",
-                  "txt": "awsdas",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "WBz4h",
-                  "txt": "dd",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [
-                {
-                  "id": "o5FzK",
-                  "txt": "Task 'txt' was changed to 'txt'",
-                  "createdAt": 1606611209089
-                },
-                {
-                  "id": "mOdj8",
-                  "txt": "Task 'txt' was changed to 'txsdasdasdt'",
-                  "createdAt": 1606611211757
-                },
-                {
-                  "id": "iwe53",
-                  "txt": "Task 'txsdasdasdt ddd\n\n' was changed to 'txsdasdasdt ddd'",
-                  "createdAt": 1606641927786
-                },
-                {
-                  "id": "Tt3B1",
-                  "txt": "Task 'txsdasdasdt ddd' was changed to 'txsdasdasdt ddd'",
-                  "createdAt": 1606641947814
-                }
-              ],
-              "id": "Ia8KZ"
-            },
-            {
-              "txt": "ddddtxt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "2XyDW"
-              },
-              "priority": {
-                "color": "#c137c1ba",
-                "txt": "Medium",
-                "id": "oC0kx"
-              },
-              "posts": [
-                {
-                  "id": "jKXAn",
-                  "txt": "dd",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "nwHTw",
-                  "txt": "ggg\n",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "ikSxh",
-                  "txt": "ddd",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [
-                {
-                  "id": "lSe5E",
-                  "txt": "Task priority was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606609821362
-                }
-              ],
-              "id": "a9DbD"
-            }
-          ],
-          "id": "nA4Ez"
-        }
-      ],
-      "_id": 3
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "9QvZU"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "GmACf"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "zIBmJ"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "TO85i"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "rL3wR"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "gCt4C"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "S3SCF"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "E9wNe"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#e44258",
-                "txt": "Stuck",
-                "id": "e5xpp"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EJDpS"
-              },
-              "posts": [
-                {
-                  "id": "BN5as",
-                  "txt": "gggg",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "XL1jE",
-                  "txt": "xxx",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [
-                {
-                  "id": "N8QVu",
-                  "txt": "Task status was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605520546
-                },
-                {
-                  "id": "e54MM",
-                  "txt": "Task 'txt' was changed to 'txt'",
-                  "createdAt": 1606641286860
-                },
-                {
-                  "id": "6wIkA",
-                  "txt": "Task 'txt' was changed to 'txt'",
-                  "createdAt": 1606641299192
-                }
-              ],
-              "id": "dfgur"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#e44258",
-                "txt": "Stuck",
-                "id": "e5xpp"
-              },
-              "priority": {
-                "color": "#e44258",
-                "txt": "High",
-                "id": "1Jx3W"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "WVFgZ",
-                  "txt": "Task status was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605510622
-                },
-                {
-                  "id": "r5L3I",
-                  "txt": "Task priority was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605517290
-                }
-              ],
-              "id": "y3O4U"
-            }
-          ],
-          "id": "A8Bfl"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt dddd",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "2XyDW"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Poiy9"
-              },
-              "posts": [
-                {
-                  "id": "Cw6j8",
-                  "txt": "ddd",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [
-                {
-                  "id": "LYUMf",
-                  "txt": "Task 'txt' was changed to 'txt'",
-                  "createdAt": 1606609084702
-                }
-              ],
-              "id": "a9DbD"
-            },
-            {
-              "txt": "txt cccc",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vq9YL"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Tv2Sn"
-              },
-              "posts": [
-                {
-                  "id": "AiqOe",
-                  "txt": "bbbb",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "uL7g0",
-                  "txt": "ddd",
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "activities": [],
-              "id": "Ia8KZ"
-            }
-          ],
-          "id": "nA4Ez"
-        }
-      ],
-      "_id": 5
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "P6tLC"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "g7dqp"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "5AqRB"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "lTv3U"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "KvKFx"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "NWqID"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "te9N7"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "o0rNi"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Fwgt4"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "LeiFS"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "6LaMo"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "v6cAP"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "ta67w"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "NK7ML",
-                  "txt": "Task 'txt' was changed to 'txt'",
-                  "createdAt": 1606604665863
-                }
-              ],
-              "id": "xYOQY"
-            },
-            {
-              "txt": "asd",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "gray",
-                "txt": "",
-                "id": "vFvb3"
-              },
-              "priority": {
-                "color": "gray",
-                "txt": "",
-                "id": "FMsbh"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "DRrG7",
-                  "txt": "Task 'asd' added",
-                  "createdAt": 1606604610924,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                }
-              ],
-              "id": "DTcdf"
-            },
-            {
-              "txt": "asdasdasd",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "gray",
-                "txt": "",
-                "id": "Qryeh"
-              },
-              "priority": {
-                "color": "gray",
-                "txt": "",
-                "id": "tNCLM"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "hWTDh",
-                  "txt": "Task 'asdasdasd' added",
-                  "createdAt": 1606604612808,
-                  "byUser": {
-                    "_id": "301",
-                    "fullName": "Puki Ben David",
-                    "imgUrl": "https://www.img.com/101.png",
-                    "password": "pass",
-                    "email": "muki@bendavid.com",
-                    "isAdmin": false
-                  }
-                },
-                {
-                  "id": "CwtkT",
-                  "txt": "Task 'asdasdasd' was changed to 'asdasdasd'",
-                  "createdAt": 1606604668061
-                }
-              ],
-              "id": "Vhl6v"
-            }
-          ],
-          "id": "L9X39"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Fnx6r"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "fkb2I"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "wtXFD"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "masSP"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "j3i3m"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "qHyPS",
-                  "txt": "Task 'txt' was changed to 'txt'",
-                  "createdAt": 1606604683088
-                }
-              ],
-              "id": "MjDLl"
-            }
-          ],
-          "id": "AFhC0"
-        }
-      ],
-      "_id": 6
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "psAgN"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "AZw5K"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "zGD1w"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "nTrxJ"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "XCoPJ"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "2dXOT"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "bxTnG"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "86BpS"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "MGQmx"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "HBU77"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "mVCr4"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "8JInn"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "L6hp7"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "gSOmE"
-            }
-          ],
-          "id": "6lvcQ"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "7sNZS"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "K32yk"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "5BmpZ"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "OSTBv"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "DjqpX"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "cHMoW"
-            }
-          ],
-          "id": "C7XqA"
-        }
-      ],
-      "_id": 7
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "f5tgB"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "9onRp"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "VJ18W"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "nmZYj"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "neVs0"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "FpPo9"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "dLRi6"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "ZiQRL"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "qjoYP"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Iui57"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "fsw6s"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "X2Lge"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "gn0AX"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "hXqdR"
-            }
-          ],
-          "id": "gqnnG"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "bB8qL"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "56mxl"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "MiBA4"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "TZDMn"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "jmlS5"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "fAqpW"
-            }
-          ],
-          "id": "vPywy"
-        }
-      ],
-      "_id": 8
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "vF5Zf"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "EBYZL"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "5aEaL"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "wGq6d"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "9MkLa"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "4hngN"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "5ny94"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "hmeGg"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "8dQvf"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "3YPr6"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "6DCTd"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "hphU2"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "T2nio"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "554D1"
-            }
-          ],
-          "id": "cckJT"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "7JUsE"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "0YSTM"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ZAt3v"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "PrqeM"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Cxy3C"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "6Tpso"
-            }
-          ],
-          "id": "HEHOD"
-        }
-      ],
-      "_id": 9
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "480XA"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "oBWq8"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "9ScuQ"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "To0zJ"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "InJVM"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "cENBu"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "HWEMd"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "8uRiA"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "yHQvt"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "jV8eD"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "6YtFO"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "uDs6w"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "LIZug"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ClgvH"
-            }
-          ],
-          "id": "uFBG2"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Y4w7Y"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "it0NI"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "KEJYY"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "wz1zT"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "P1WS7"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "HZVad"
-            }
-          ],
-          "id": "J214e"
-        }
-      ],
-      "_id": 10
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "0JWYF"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "RNS6g"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "1as0u"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "ASuiq"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "Rrqlr"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "yGmRk"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "9U6Pl"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "oHcLI"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "RtS5t"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EzgkT"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "y3O4U"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Mz1Ue"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EJDpS"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "dfgur"
-            }
-          ],
-          "id": "A8Bfl"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "2XyDW"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Poiy9"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "a9DbD"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vq9YL"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Tv2Sn"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Ia8KZ"
-            }
-          ],
-          "id": "nA4Ez"
-        }
-      ],
-      "_id": 11
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "HUG9c"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "POHrw"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "e5xpp"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "usKKJ"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "5vfKn"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "qHkYm"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "E6yU6"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "1Jx3W"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "2XyDW"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Poiy9"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "a9DbD"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vq9YL"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Tv2Sn"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Ia8KZ"
-            }
-          ],
-          "id": "nA4Ez"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#e44258",
-                "txt": "Stuck",
-                "id": "e5xpp"
-              },
-              "priority": {
-                "color": "#e44258",
-                "txt": "High",
-                "id": "1Jx3W"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "WVFgZ",
-                  "txt": "Task status was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605510622
-                },
-                {
-                  "id": "r5L3I",
-                  "txt": "Task priority was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605517290
-                }
-              ],
-              "id": "y3O4U"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#e44258",
-                "txt": "Stuck",
-                "id": "e5xpp"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EJDpS"
-              },
-              "posts": [],
-              "activities": [
-                {
-                  "id": "N8QVu",
-                  "txt": "Task status was updated from '[object Object]' to '[object Object]",
-                  "createdAt": 1606605520546
-                }
-              ],
-              "id": "dfgur"
-            }
-          ],
-          "id": "A8Bfl"
-        }
-      ],
-      "_id": 13
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "zHSiO"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "O6ocd"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "Y6o6G"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "x6qWz"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "ssl2O"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "y68hu"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "rIbpf"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "Zq75Q"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "9V8uM"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Strba"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "7PUvJ"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "e6cDC"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "poGuA"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "fItki"
-            }
-          ],
-          "id": "TJlhm"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Sjlmb"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "gW7pf"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Fpi7R"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "CeeLs"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "pcSL0"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Eh99v"
-            }
-          ],
-          "id": "9iLLQ"
-        }
-      ],
-      "_id": 14
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "1PrUn"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "djqZv"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "lnXVD"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "JcLWi"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "Rda6S"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "pQkHX"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "UzWq1"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "Y9dT2"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "T4a94"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "JkPHo"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "4P5pW"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "sCcDa"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "OgwAA"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "gw25a"
-            }
-          ],
-          "id": "d3A3O"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "4H200"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "xgK9l"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "eLmnq"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EfSf9"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "XvaVi"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "v2V9B"
-            }
-          ],
-          "id": "h2LfF"
-        }
-      ],
-      "_id": 15
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "iJPrT"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "rb4JK"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "n6SZV"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "RY5AJ"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "MNkSR"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "14U1V"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "NXTqA"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "t8Xk3"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "WSwiu"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "3dzL1"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "cLEM8"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "dMnMx"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "jia8C"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "UZ813"
-            }
-          ],
-          "id": "WPWNK"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "yhh0I"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "qWCsv"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "hhTlo"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Pigtx"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "J6TK9"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "frGFV"
-            }
-          ],
-          "id": "MUJV1"
-        }
-      ],
-      "_id": 16
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "B3FkB"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "SZ6wn"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "i9WUM"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "8QD4t"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "bgCVo"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "qME6Z"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "IPP3S"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "nfHSD"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "eue6P"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "TwiDZ"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "yywNH"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "ndgnF"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "tnNc0"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Bgh71"
-            }
-          ],
-          "id": "GjBhp"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "E9oXG"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "ar48t"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ixE5Q"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "TNt6T"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "E5YmJ"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "DnBqk"
-            }
-          ],
-          "id": "paOWN"
-        }
-      ],
-      "_id": 17
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "sV4LO"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "dlLLj"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "84rjX"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "1Sh1T"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "qWYS7"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "RitYN"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "ONQlC"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "T6l7B"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "wstGq"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "1o5OW"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ZmkB5"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "uo5gn"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "PFKbX"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "VMmXA"
-            }
-          ],
-          "id": "xikxe"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "XFqEY"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "ue4GZ"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "bcyQk"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "X34Od"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "EjDum"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "PXumj"
-            }
-          ],
-          "id": "6crlZ"
-        }
-      ],
-      "_id": 18
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "PXp3B"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "GMdyg"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "8ZTxr"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "7d5MF"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "6v395"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "FC1JN"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "yuGVc"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "1XD51"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "gvAu3"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "159Px"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "22CDk"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "3hoc4"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "tsDRD"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "hyGNY"
-            }
-          ],
-          "id": "sC9Wa"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "21WUc"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vsyju"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "iAk5w"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "XZ2NR"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "v8OP4"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "mSCQO"
-            }
-          ],
-          "id": "ssyz8"
-        }
-      ],
-      "_id": 19
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "cT2lz"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "z2D5z"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "9HNJs"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "Qidny"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "gMF8u"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "qHcBW"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "B2Ufn"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "b4BeW"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "WbjSF"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "3SxZi"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "vOcFu"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "QqEPg"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "xwt4m"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ZZYGq"
-            }
-          ],
-          "id": "StoWi"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "psz9O"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "HKI4J"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "c6vEU"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "VCdvr"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "eF7vS"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "yMsWH"
-            }
-          ],
-          "id": "lsvY6"
-        }
-      ],
-      "_id": 20
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "1E8SW"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "vnrYP"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "7ToVL"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "ALmHj"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "WkbY8"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "pCcxA"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "EiVK0"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "eAiTF"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "WOfQv"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "1FgAr"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "4xVan"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "gNTqp"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "VQjHP"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "pkXr9"
-            }
-          ],
-          "id": "rTZQe"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "efGpV"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "hXkvB"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Zdh1O"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "9Pb48"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "FVf1b"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "SCs33"
-            }
-          ],
-          "id": "KLB0K"
-        }
-      ],
-      "_id": 21
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "UylOs"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "polcC"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "oTeW5"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "qHS9M"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "M6puI"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "OTKRT"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "4Woqu"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "ac83A"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Nazse"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Uqng9"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "leF71"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "2bXS2"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "N3zd3"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "cozIq"
-            }
-          ],
-          "id": "gYALt"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "YLXK5"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "AFdYo"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "J1KAR"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "SmM1t"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "AopZP"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "gliBu"
-            }
-          ],
-          "id": "v4vO8"
-        }
-      ],
-      "_id": 22
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "AsjVE"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "TA0Vh"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "0bJvl"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "l80YG"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "Yaqm8"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "IxPdO"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "xkNkC"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "dPhM7"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "FFNl1"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "DLAtx"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "V3tn4"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "6K74I"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "a5vtL"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "OTAwC"
-            }
-          ],
-          "id": "jXqGS"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "ZLQOz"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "ynAnS"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ixFKc"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "AG1fb"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "vaD94"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "YJRHi"
-            }
-          ],
-          "id": "UnfyG"
-        }
-      ],
-      "_id": 23
-    },
-    {
-      "name": "myBoard",
-      "description": "myBoard is the Best",
-      "creator": {
-        "_id": "304",
-        "fullName": "Muki Ben David",
-        "imgUrl": "https://www.img.com/101.png"
-      },
-      "statuses": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "D3fjV"
-        },
-        {
-          "color": "#fdab3d",
-          "txt": "Working on it",
-          "id": "oAXWk"
-        },
-        {
-          "color": "#e44258",
-          "txt": "Stuck",
-          "id": "YuKAg"
-        },
-        {
-          "color": "#00ca72",
-          "txt": "Done",
-          "id": "a7Qiz"
-        }
-      ],
-      "priorities": [
-        {
-          "color": "#a8a8a8",
-          "txt": "",
-          "id": "D9RH5"
-        },
-        {
-          "color": " #90d5ffd9",
-          "txt": "Low",
-          "id": "u1VX5"
-        },
-        {
-          "color": "#c137c1ba",
-          "txt": "Medium",
-          "id": "ysoLn"
-        },
-        {
-          "color": "#e44258",
-          "txt": "High",
-          "id": "Xvebn"
-        }
-      ],
-      "activities": [],
-      "members": [],
-      "groups": [
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "Mg99Y"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "XlWsY"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "OJ61y"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "B4rY2"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "pkcCj"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "ohfmR"
-            }
-          ],
-          "id": "3rL8Y"
-        },
-        {
-          "color": "rgb(174, 203, 250)",
-          "name": "New Group",
-          "tasks": [
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "HkqtC"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "RJiXG"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "Va3EF"
-            },
-            {
-              "txt": "txt",
-              "members": [],
-              "dueDate": "",
-              "status": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "SdAUn"
-              },
-              "priority": {
-                "color": "#a8a8a8",
-                "txt": "",
-                "id": "LL4yG"
-              },
-              "posts": [],
-              "activities": [],
-              "id": "sXGyx"
-            }
-          ],
-          "id": "By1w7"
-        }
-      ],
-      "_id": 24
-    }
+  {
+  "name": "Dsa",
+  "description": "myBoard is the Best",
+  "creator": {
+  "_id": "304",
+  "fullName": "Muki Ben David",
+  "imgUrl": "https://www.img.com/101.png"
+  },
+  "statuses": [
+  {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "vaFpR"
+  },
+  {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "pvVds"
+  },
+  {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "4dgTm"
+  },
+  {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "bz7Ml"
+  }
+  ],
+  "priorities": [
+  {
+  "color": "#a8a8a8",
+  "txt": "",
+  "id": "M0lxq"
+  },
+  {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "U4chv"
+  },
+  {
+  "color": "#c137c1ba",
+  "txt": "Medium",
+  "id": "8gVpS"
+  },
+  {
+  "color": "#e44258",
+  "txt": "High",
+  "id": "5XkZ8"
+  }
+  ],
+  "activities": [],
+  "members": [
+  {
+  "_id": "304",
+  "fullName": "Nuki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  },
+  {
+  "_id": "303",
+  "fullName": "Loki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  },
+  {
+  "_id": "302",
+  "fullName": "Muki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  },
+  {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  ],
+  "groups": [
+  {
+  "color": "#eb3b89",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [
+  {
+  "_id": "304",
+  "fullName": "Nuki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  ],
+  "dueDate": "",
+  "status": {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "LTniH"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "243VR"
+  },
+  "posts": [
+  {
+  "id": "HvzSk",
+  "txt": "sad",
+  "createdAt": 1606681209418,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "YBSCc",
+  "txt": "asd",
+  "createdAt": 1606681208571,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "NNTq1",
+  "txt": "asd",
+  "createdAt": 1606681207828,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "WLPff",
+  "txt": "asd",
+  "createdAt": 1606681207123,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "FYhOv",
+  "txt": "asd",
+  "createdAt": 1606681206389,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "PiPjx",
+  "txt": "asd",
+  "createdAt": 1606681204957,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "33ovj",
+  "txt": "asdas",
+  "createdAt": 1606681204198,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "AGyxD",
+  "txt": "dasdas",
+  "createdAt": 1606681203261,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "gmnWl",
+  "txt": "dasdas",
+  "createdAt": 1606681202220,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "E5Bqg",
+  "txt": "dasdas",
+  "createdAt": 1606681200809,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "c8Tak",
+  "txt": "גדש",
+  "createdAt": 1606681039622,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "3iEKJ",
+  "txt": "גיא המלך!!",
+  "createdAt": 1606681035159,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "jEObD",
+  "txt": "dasdsa",
+  "createdAt": 1606677413561,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "ne9QT",
+  "txt": "dsadsa",
+  "createdAt": 1606677410824,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "HhdtR",
+  "txt": "565\n",
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "Otpkg",
+  "txt": "גשדגשדג",
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "activities": [
+  {
+  "id": "HTiQp",
+  "txt": "Task status was updated from  to 'Working on it'",
+  "createdAt": 1606677119529,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "pSna8",
+  "txt": "Task priority was updated from  to 'Low'",
+  "createdAt": 1606677121279,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "acs64",
+  "txt": "Task 'txt' was changed to 'txt'",
+  "createdAt": 1606697709058,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "JCJC4",
+  "txt": "Member Nuki Ben David was added to task",
+  "createdAt": 1606741264020,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "QyI6K"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "oPD6P"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "xaQzh"
+  },
+  "posts": [
+  {
+  "id": "q4BoB",
+  "txt": "das",
+  "createdAt": 1606681792330,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "SjGJy",
+  "txt": "asdsad",
+  "createdAt": 1606681791348,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "r1Mh8",
+  "txt": "dsadsa",
+  "createdAt": 1606681790043,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "activities": [
+  {
+  "id": "nNUyZ",
+  "txt": "Task status was updated from  to 'Working on it'",
+  "createdAt": 1606677118038,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "SCLyh",
+  "txt": "Task status was updated from Working on it to Working on it",
+  "createdAt": 1606691660833,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "YznxQ",
+  "txt": "Task status was updated from Working on it to Done",
+  "createdAt": 1606691663345,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "MLLMS",
+  "txt": "Task priority was updated from  to Low",
+  "createdAt": 1606700371135,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "WeIN7"
+  },
+  {
+  "txt": "dsadsa",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "mgzPi"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "R5k6r"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "ZgkXB",
+  "txt": "Task 'dsadsa' added",
+  "createdAt": 1606681785836,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "j1FZG",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606691649800,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "nCKip",
+  "txt": "Task priority was updated from  to Low",
+  "createdAt": 1606691655980,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "SriUd"
+  },
+  {
+  "txt": "dasdas",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "A9Vi1"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "ckdHf"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "9dvYq",
+  "txt": "Task 'dasdas' added",
+  "createdAt": 1606681787188,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "HV4DE",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606691653880,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "PbEiI",
+  "txt": "Task priority was updated from  to Low",
+  "createdAt": 1606700475996,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "vqf9P"
+  },
+  {
+  "txt": "dsf",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "gyHNn"
+  },
+  "priority": {
+  "color": "#c137c1ba",
+  "txt": "Medium",
+  "id": "IfKP1"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "tljrh",
+  "txt": "Task 'dsf' added",
+  "createdAt": 1606691668476,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "7mMvY",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606691670485,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "EdlQJ",
+  "txt": "Task priority was updated from  to Medium",
+  "createdAt": 1606700477872,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "nbMeh"
+  },
+  {
+  "txt": "dsad",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "5sn5e"
+  },
+  "priority": {
+  "color": "#e44258",
+  "txt": "High",
+  "id": "29ZBO"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "NkQEO",
+  "txt": "Task 'dsad' added",
+  "createdAt": 1606691672522,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "SF9nO",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606691679186,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "QMmog",
+  "txt": "Task priority was updated from  to High",
+  "createdAt": 1606700373351,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "xlC81"
+  }
+  ],
+  "id": "5sloL"
+  },
+  {
+  "color": "rgb(0, 134, 192)",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "eHL3g"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "J5Ecl"
+  },
+  "posts": [
+  {
+  "id": "cfiqN",
+  "txt": "asdas",
+  "createdAt": 1606689143546,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "kHRyh",
+  "txt": "sdfdsfdasf",
+  "createdAt": 1606689142428,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "activities": [
+  {
+  "id": "6Hr2D",
+  "txt": "Task status was updated from  to 'Stuck'",
+  "createdAt": 1606670820652,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "wPc5A",
+  "txt": "Task priority was updated from  to 'Low'",
+  "createdAt": 1606670824200,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "6ZiQi",
+  "txt": "Task status was updated from Stuck to ''",
+  "createdAt": 1606670833935,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "GN6rk",
+  "txt": "Task 'txt' was changed to 'txt'",
+  "createdAt": 1606689138973,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "E9wOi",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606700484469,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "pOZDy",
+  "txt": "Task status was updated from Stuck to ",
+  "createdAt": 1606700488526,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "2Bbbf",
+  "txt": "Task status was updated from  to ",
+  "createdAt": 1606700490094,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "HvrfM",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606727300537,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "XSiAa",
+  "txt": "Task status was updated from Done to ",
+  "createdAt": 1606727305900,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "Ju1vu",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606727320527,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "pESSI"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "6QQRf"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "ZHHGo"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "qABgs",
+  "txt": "Task status was updated from  to 'Done'",
+  "createdAt": 1606670826045,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "UD40e",
+  "txt": "Task priority was updated from  to 'High'",
+  "createdAt": 1606670827530,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "Hp6t0",
+  "txt": "Task status was updated from Done to ",
+  "createdAt": 1606727304791,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "WmD8F",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606727321981,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "wEhGr",
+  "txt": "Task priority was updated from High to Low",
+  "createdAt": 1606727797942,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "4LTVX"
+  },
+  {
+  "txt": "dsadas",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "lVTZ4"
+  },
+  "priority": {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "mPtVR"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "hzxzV",
+  "txt": "Task 'dsadas' added",
+  "createdAt": 1606696438351,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "oWbeX",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606696441917,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "Yyhbb",
+  "txt": "Task priority was updated from  to Low",
+  "createdAt": 1606700492426,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "tcyON",
+  "txt": "Task status was updated from Working on it to ",
+  "createdAt": 1606727307536,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "EHHoF",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606727323713,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "3e4fL",
+  "txt": "Task status was updated from Stuck to ",
+  "createdAt": 1606741562432,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "EBM0S"
+  },
+  {
+  "txt": "asdd",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "8kGJl"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "hNI5Y"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "MM3u7",
+  "txt": "Task 'asdd' added",
+  "createdAt": 1606696439695,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "KA69R",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606696444714,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "1F7sf",
+  "txt": "Task status was updated from Stuck to ",
+  "createdAt": 1606727309854,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "nFYQ1",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606727325258,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "ldsy2",
+  "txt": "Task status was updated from Stuck to ",
+  "createdAt": 1606741561306,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "HWxXv"
+  }
+  ],
+  "id": "rEArd"
+  },
+  {
+  "color": "rgb(0, 134, 192)",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "AFbF5"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "whRiL"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "iQkKw",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606741950778,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "Xn60Y"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "EJtuI"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "puiBj"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "e4mn7",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606741954797,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "0ONGA"
+  }
+  ],
+  "id": "hBavf"
+  }
+  ],
+  "_id": 6
+  },
+  {
+  "name": "Dksal;Das",
+  "description": "myBoard is the Best",
+  "creator": {
+  "_id": "304",
+  "fullName": "Muki Ben David",
+  "imgUrl": "https://www.img.com/101.png"
+  },
+  "statuses": [
+  {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "AnkC6"
+  },
+  {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "vsk9P"
+  },
+  {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "XAm6K"
+  },
+  {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "yaxzX"
+  }
+  ],
+  "priorities": [
+  {
+  "color": "#a8a8a8",
+  "txt": "",
+  "id": "zq59n"
+  },
+  {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "QF2uy"
+  },
+  {
+  "color": "#c137c1ba",
+  "txt": "Medium",
+  "id": "Y71wX"
+  },
+  {
+  "color": "#e44258",
+  "txt": "High",
+  "id": "uPboZ"
+  }
+  ],
+  "activities": [],
+  "members": [],
+  "groups": [
+  {
+  "color": "#ee6e40",
+  "name": "New Group",
+  "tasks": [],
+  "id": "yX2b7"
+  },
+  {
+  "color": "#3885bb",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "Yc2Im"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "XWQYE"
+  },
+  "posts": [
+  {
+  "id": "xsHIN",
+  "txt": "dasdas",
+  "createdAt": 1606683274739,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "EQXNN",
+  "txt": "dsada",
+  "createdAt": 1606683273330,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "7BvAP",
+  "txt": "56556",
+  "createdAt": 1606676921527,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "IwJH9",
+  "txt": "454\n",
+  "createdAt": 1606676917942,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "4xdKa",
+  "txt": "565\n",
+  "createdAt": 1606676912249,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "iedWX",
+  "txt": "565",
+  "createdAt": 1606676907801,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "nBhBJ",
+  "txt": "dsasda",
+  "createdAt": 1606676816251,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "activities": [
+  {
+  "id": "V1b9C",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606692405114,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "0vvbM",
+  "txt": "Task status was updated from Working on it to Done",
+  "createdAt": 1606692447668,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "hN0En",
+  "txt": "Task status was updated from Done to Stuck",
+  "createdAt": 1606693134382,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "6gdV4",
+  "txt": "Task status was updated from Stuck to Stuck",
+  "createdAt": 1606693205506,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "7R6au"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "5XQWh"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "Bcl5v"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "AGxcE",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606692410214,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "51zcT",
+  "txt": "Task status was updated from Stuck to Done",
+  "createdAt": 1606692441076,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "8OvX9",
+  "txt": "Task status was updated from Done to ",
+  "createdAt": 1606692857721,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "fZL0n",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606693097039,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "onuvc",
+  "txt": "Task status was updated from Working on it to Stuck",
+  "createdAt": 1606693206902,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "g05q8",
+  "txt": "Task status was updated from Stuck to Done",
+  "createdAt": 1606693302499,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "xXdW8",
+  "txt": "Task status was updated from Done to Stuck",
+  "createdAt": 1606694824833,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "oIgDt"
+  },
+  {
+  "txt": "525",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "4vmuZ"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "r4N4v"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "IqpG9",
+  "txt": "Task '525' added",
+  "createdAt": 1606692407560,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "FrJEr",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606692413348,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "aAkSe",
+  "txt": "Task status was updated from Done to Working on it",
+  "createdAt": 1606692527705,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "q7r4G",
+  "txt": "Task status was updated from Working on it to ",
+  "createdAt": 1606692858996,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "ck4IH",
+  "txt": "Task status was updated from  to ",
+  "createdAt": 1606692861366,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "xWd5O",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606693099364,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "xBUOk",
+  "txt": "Task status was updated from Done to Stuck",
+  "createdAt": 1606693208492,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "MWFHm",
+  "txt": "Task status was updated from Stuck to Working on it",
+  "createdAt": 1606693310261,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "rDqhU",
+  "txt": "Task status was updated from Working on it to Stuck",
+  "createdAt": 1606693675005,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "zm2Q6",
+  "txt": "Task status was updated from Stuck to Working on it",
+  "createdAt": 1606694827479,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "1Ipue"
+  },
+  {
+  "txt": "23",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "RhDWl"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "vzxbm"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "1IcNn",
+  "txt": "Task '23' added",
+  "createdAt": 1606692417831,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "tZWMV",
+  "txt": "Task status was updated from  to Stuck",
+  "createdAt": 1606692420878,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "Rjj9Y",
+  "txt": "Task status was updated from Stuck to Done",
+  "createdAt": 1606692443461,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "IyKsj",
+  "txt": "Task status was updated from Done to ",
+  "createdAt": 1606692862528,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "tsqQ2",
+  "txt": "Task status was updated from  to Working on it",
+  "createdAt": 1606693102551,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "o7QzQ",
+  "txt": "Task status was updated from Working on it to Stuck",
+  "createdAt": 1606693210426,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "Td8GM",
+  "txt": "Task status was updated from Stuck to Working on it",
+  "createdAt": 1606693354508,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "oBA1V",
+  "txt": "Task status was updated from Working on it to Done",
+  "createdAt": 1606693677488,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "2OXPT",
+  "txt": "Task status was updated from Done to Working on it",
+  "createdAt": 1606693865040,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "oEsRY",
+  "txt": "Task status was updated from Working on it to Done",
+  "createdAt": 1606694829504,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "jUqr3"
+  },
+  {
+  "txt": "565",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "L8VwG"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "IQxdr"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "N9y0d",
+  "txt": "Task '565' added",
+  "createdAt": 1606694834482,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "YYGy9",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606694842734,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "WY7qr",
+  "txt": "Task status was updated from Done to ",
+  "createdAt": 1606694880625,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "rtS91"
+  },
+  {
+  "txt": "232",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "Ebv18"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "cA5lU"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "vn2Xh",
+  "txt": "Task '232' added",
+  "createdAt": 1606694840095,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "5QWq6",
+  "txt": "Task status was updated from  to Done",
+  "createdAt": 1606694875713,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "dcGDn",
+  "txt": "Task status was updated from Done to Working on it",
+  "createdAt": 1606694877933,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "ZXo6S",
+  "txt": "Task status was updated from Working on it to Stuck",
+  "createdAt": 1606694941549,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "PKTCy",
+  "txt": "Task status was updated from Stuck to ",
+  "createdAt": 1606694943306,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "5DjWL"
+  }
+  ],
+  "id": "NcTkP"
+  }
+  ],
+  "_id": 7
+  },
+  {
+  "name": "myBoard",
+  "description": "myBoard is the Best",
+  "creator": {
+  "_id": "304",
+  "fullName": "Muki Ben David",
+  "imgUrl": "https://www.img.com/101.png"
+  },
+  "statuses": [
+  {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "gZfQi"
+  },
+  {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "xuJLK"
+  },
+  {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "QFiIY"
+  },
+  {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "5aUTZ"
+  }
+  ],
+  "priorities": [
+  {
+  "color": "#a8a8a8",
+  "txt": "",
+  "id": "B2W8f"
+  },
+  {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "HJSvX"
+  },
+  {
+  "color": "#c137c1ba",
+  "txt": "Medium",
+  "id": "tZuKu"
+  },
+  {
+  "color": "#e44258",
+  "txt": "High",
+  "id": "jdA2v"
+  }
+  ],
+  "activities": [],
+  "members": [],
+  "groups": [
+  {
+  "color": "rgb(0, 134, 192)",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "9wwXH"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "i3SGP"
+  },
+  "posts": [
+  {
+  "id": "KH8Qu",
+  "txt": "232",
+  "createdAt": 1606689193146,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "64RTo",
+  "txt": "65",
+  "createdAt": 1606689191946,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "activities": [],
+  "id": "ViZdP"
+  },
+  {
+  "txt": "2112",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "lNkHG"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "BILtv"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "Ox6Jk",
+  "txt": "Task '2112' added",
+  "createdAt": 1606689174062,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "kWK66",
+  "txt": "Task '2112' was changed to '2112'",
+  "createdAt": 1606689179496,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "Anqgt"
+  },
+  {
+  "txt": "56556",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "yyOyR"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "sfI0G"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "1jxJz",
+  "txt": "Task '56556' added",
+  "createdAt": 1606689167947,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "U5xN0"
+  },
+  {
+  "txt": "45454",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "4qaVM"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "2vde1"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "PGUTv",
+  "txt": "Task '45454' added",
+  "createdAt": 1606689170747,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "AfhHR"
+  },
+  {
+  "txt": "5656",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "IMeqd"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "N4yjr"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "2i5xb",
+  "txt": "Task '5656' added",
+  "createdAt": 1606689163364,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  },
+  {
+  "id": "IMLg7",
+  "txt": "Task '5656' was changed to '5656'",
+  "createdAt": 1606689165370,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "3TpZg"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "8uCFJ"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "56Kr8"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "o7Epx"
+  },
+  {
+  "txt": "122",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "o4s5h"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "V5Kca"
+  },
+  "posts": [],
+  "activities": [
+  {
+  "id": "slcMJ",
+  "txt": "Task '122' added",
+  "createdAt": 1606689176635,
+  "byUser": {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
+  }
+  ],
+  "id": "qhI6a"
+  }
+  ],
+  "id": "j3G0g"
+  },
+  {
+  "color": "rgb(0, 134, 192)",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "2MIdV"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "oXl0x"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "m71sN"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "Adp6u"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "LZ7LM"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "ysaP9"
+  }
+  ],
+  "id": "Wk7v3"
+  }
+  ],
+  "_id": 8
+  },
+  {
+  "name": "myBoard",
+  "description": "myBoard is the Best",
+  "creator": {
+  "_id": "304",
+  "fullName": "Muki Ben David",
+  "imgUrl": "https://www.img.com/101.png"
+  },
+  "statuses": [
+  {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "zEJyR"
+  },
+  {
+  "color": "#f6c27f",
+  "txt": "Working on it",
+  "id": "woY9o"
+  },
+  {
+  "color": "#d2505f",
+  "txt": "Stuck",
+  "id": "itFY7"
+  },
+  {
+  "color": "#5ac47d",
+  "txt": "Done",
+  "id": "2P9uk"
+  }
+  ],
+  "priorities": [
+  {
+  "color": "#a8a8a8",
+  "txt": "",
+  "id": "Pdyxj"
+  },
+  {
+  "color": " #90d5ffd9",
+  "txt": "Low",
+  "id": "6FpUu"
+  },
+  {
+  "color": "#c137c1ba",
+  "txt": "Medium",
+  "id": "Nv8g8"
+  },
+  {
+  "color": "#e44258",
+  "txt": "High",
+  "id": "gS9Pt"
+  }
+  ],
+  "activities": [],
+  "members": [],
+  "groups": [
+  {
+  "color": "rgb(0, 134, 192)",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "eDDGP"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "lJZYl"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "B1tja"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "kxkT2"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "fH5eM"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "wSmUL"
+  }
+  ],
+  "id": "GDiGz"
+  },
+  {
+  "color": "rgb(0, 134, 192)",
+  "name": "New Group",
+  "tasks": [
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "VfCYq"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "juW3C"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "BS4Wv"
+  },
+  {
+  "txt": "txt",
+  "members": [],
+  "dueDate": "",
+  "status": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "PbGvg"
+  },
+  "priority": {
+  "color": "#c4c4c4",
+  "txt": "",
+  "id": "4kITT"
+  },
+  "posts": [],
+  "activities": [],
+  "id": "GWUMr"
+  }
+  ],
+  "id": "RDaBZ"
+  }
+  ],
+  "_id": 9
+  }
   ],
   "user": [
-    {
-      "_id": "301",
-      "fullName": "Puki Ben David",
-      "imgUrl": "https://www.img.com/101.png",
-      "password": "pass",
-      "email": "muki@bendavid.com",
-      "isAdmin": false
-    },
-    {
-      "_id": "302",
-      "fullName": "Muki Ben David",
-      "imgUrl": "https://www.img.com/101.png",
-      "password": "pass",
-      "email": "muki@bendavid.com",
-      "isAdmin": false
-    },
-    {
-      "_id": "303",
-      "fullName": "Loki Ben David",
-      "imgUrl": "https://www.img.com/101.png",
-      "password": "pass",
-      "email": "muki@bendavid.com",
-      "isAdmin": false
-    },
-    {
-      "_id": "304",
-      "fullName": "Nuki Ben David",
-      "imgUrl": "https://www.img.com/101.png",
-      "password": "pass",
-      "email": "muki@bendavid.com",
-      "isAdmin": false
-    }
+  {
+  "_id": "301",
+  "fullName": "Puki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  },
+  {
+  "_id": "302",
+  "fullName": "Muki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  },
+  {
+  "_id": "303",
+  "fullName": "Loki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  },
+  {
+  "_id": "304",
+  "fullName": "Nuki Ben David",
+  "imgUrl": "https://www.img.com/101.png",
+  "password": "pass",
+  "email": "muki@bendavid.com",
+  "isAdmin": false
+  }
   ]
-}
+  }
