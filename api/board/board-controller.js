@@ -24,7 +24,7 @@ async function updateBoard(req, res) {
 }
 
 async function addBoard(req, res) {
-	console.log('Controller got the board!! ********', req.body)
+	// console.log('Controller got the board!! ********', req.body)
 	const board = req.body;
 	await boardService.add(board);
 	res.send(board);
