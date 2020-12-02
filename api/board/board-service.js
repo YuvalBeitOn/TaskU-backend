@@ -20,7 +20,7 @@ async function query(userId) {
 		throw err;
 	}
 }
-
+//NOTE
 async function getById(boardId) {
 	const collection = await dbService.getCollection('board');
 	try {
