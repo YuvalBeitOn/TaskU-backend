@@ -19,7 +19,7 @@
   "devDependencies": {},
   "scripts": {
     "npm": "set NODE_ENV=development & nodemon app.js",
-    "server:dev": "set NODE_ENV=development & nodemon app.js",
+    "start-dev": "set NODE_ENV=development & nodemon app.js",
     "server:prod": "node app.js"
   },
   "authors": "Orel Vaizman, Guy Indepurker, Yuval Beito",

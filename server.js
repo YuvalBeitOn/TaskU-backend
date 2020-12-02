@@ -33,14 +33,14 @@ if (process.env.NODE_ENV === 'production') {
 
 const authRoutes = require('./api/auth/auth-routes');
 const userRoutes = require('./api/user/user-routes');
-// const connectSockets = require('./api/socket/socket.routes')
+const connectSockets = require('./api/socket/socket.routes')
 const boardRoutes = require('./api/board/board-routes')
 
 // TaskU BackEnd: routes;
 app.use('/api/board', boardRoutes)
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
-// connectSockets(io)
+connectSockets(io)
 
 app.get('/**', (req, res) => {
 	res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -50,4 +50,5 @@ const logger = require('./services/logger.service');
 const port = process.env.PORT || 3030;
 http.listen(port, () => {
 	logger.info('TaskU BackEnd server is running on port: ' + port);
+	console.log(`the server running in port ${port}`);
 });
