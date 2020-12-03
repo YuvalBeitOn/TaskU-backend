@@ -8,7 +8,8 @@ module.exports = {
     getByEmail,
     remove,
     update,
-    add
+    add,
+    notifyUser
 }
 
 async function query(filterBy = {}) {
@@ -71,6 +72,7 @@ async function update(user) {
 }
 
 async function add(user) {
+    user.notifications = [];
     const collection = await dbService.getCollection('user')
     try {
         await collection.insertOne(user);
@@ -79,4 +81,15 @@ async function add(user) {
         console.log(`ERROR: cannot insert user`)
         throw err;
     }
+}
+
+async function notifyUser(notif) {
+    try {
+        const user = await getById(notif.toUserId)
+        user.notifications.unshift(notif)
+
+    } catch (err) {
+        throw err
+    }
+    _update(user)
 }
