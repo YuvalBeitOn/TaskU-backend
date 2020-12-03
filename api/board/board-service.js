@@ -27,7 +27,7 @@ async function getById(boardId) {
 		const board = await collection.findOne({ _id: ObjectId(boardId) });
 		return board;
 	} catch (err) {
-		// console.log(`Board SERVICE - ERROR: while finding board ${boardId}`);
+		console.log(`Board SERVICE - ERROR: while finding board ${boardId}`);
 		throw err;
 	}
 }
@@ -37,7 +37,7 @@ async function remove(boardId) {
 	try {
 		await collection.deleteOne({ _id: ObjectId(boardId) });
 	} catch (err) {
-		// console.log(`Board SERVICE - ERROR: cannot remove board ${boardId}`);
+		console.log(`Board SERVICE - ERROR: cannot remove board ${boardId}`);
 		throw err;
 	}
 }
@@ -51,7 +51,7 @@ async function update(board) {
 
 		return savedBoard;
 	} catch (err) {
-		// console.log(`Board SERVICE - ERROR: Cannot update board ${board._id}`);
+		console.log(`Board SERVICE - ERROR: Cannot update board ${board._id}`);
 		throw err;
 	}
 }

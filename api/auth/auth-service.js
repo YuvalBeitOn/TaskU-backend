@@ -1,9 +1,8 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const userService = require('../user/user-service');
 const logger = require('../../services/logger.service');
 
 //TaskU BackEnd: bCrypt encryption salt rounds count;
-
 const saltRounds = 10;
 
 async function login(email, password) {

@@ -25,9 +25,19 @@ async function updateUser(req, res) {
     res.send(user)
 }
 
+async function notifyUser(req, res) {
+    const notif = req.body
+    const toUserId = req.params.toUserId
+    console.log('notif:', notif, '>>>>>>>>>>>>>>>>>>>>>');
+    console.log('toUserId:', toUserId, '>>>>>>>>>>>>>>>>>>>>>');
+    await userService.notifyUser(notif)
+    res.send(notif)
+}
+
 module.exports = {
     getUser,
     getUsers,
     deleteUser,
-    updateUser
+    updateUser,
+    notifyUser
 }
