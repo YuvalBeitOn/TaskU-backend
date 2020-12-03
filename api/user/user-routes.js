@@ -9,6 +9,6 @@ router.get('/:id', getUser)
 router.put('/:id',  requireAuth, updateUser)
 router.delete('/:id',  requireAuth, requireAdmin, deleteUser)
 router.post('/notif/:toUserId', notifyUser)
-
+        
 
 module.exports = router
