@@ -87,9 +87,9 @@ async function notifyUser(notif) {
     try {
         const user = await getById(notif.toUserId)
         user.notifications.unshift(notif)
+		_update(user)
 
     } catch (err) {
         throw err
     }
-    _update(user)
 }
