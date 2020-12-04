@@ -8,8 +8,9 @@ function connectSockets(io) {
         socket.on('update board',board=>{
             socket.broadcast.emit('updated board',board)
         })
-        socket.on('load boards',()=>{
-            socket.broadcast.emit('load boards')
+        
+        socket.on('load boards',(boards)=>{
+            socket.broadcast.emit('load boards',boards)
         })
         //************* */
         //CHAT APP:
@@ -18,7 +19,9 @@ function connectSockets(io) {
             msgs[socket.myTopic].push(msg)
             console.log('///////////////////////')
              console.log('msgs: after', msgs)
-             io.to(socket.myTopic).emit('chat addMsg', msg)
+             socket.emit('chat addMsg sender' ,{...msg,sender:'user-sender'})
+            //  io.to(socket.myTopic).emit('chat addMsg', msg)
+            socket.broadcast.to(socket.myTopic).emit('chat addMsg', msg)
          })
          
          socket.on('chat topic', topic=>{
@@ -39,7 +42,7 @@ function connectSockets(io) {
          socket.on('typing',user=>{
              const msg = user + ' ' + 'is typing...'
              console.log('msg:', msg)
-             io.to(socket.myTopic).emit('msg',msg)
+             socket.broadcast.to(socket.myTopic).emit('msg',msg)
              // io.to(socket.myTopic).emit('isTyping',true)
              socket.broadcast.emit('isTyping',true)
          })
