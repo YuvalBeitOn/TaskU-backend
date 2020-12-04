@@ -9,8 +9,8 @@ function connectSockets(io) {
             socket.broadcast.emit('updated board',board)
         })
         
-        socket.on('load boards',()=>{
-            socket.broadcast.emit('load boards')
+        socket.on('load boards',(boards)=>{
+            socket.broadcast.emit('load boards',boards)
         })
         //************* */
         //CHAT APP:
