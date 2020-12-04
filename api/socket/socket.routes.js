@@ -8,6 +8,7 @@ function connectSockets(io) {
         socket.on('update board',board=>{
             socket.broadcast.emit('updated board',board)
         })
+        
         socket.on('load boards',()=>{
             socket.broadcast.emit('load boards')
         })
