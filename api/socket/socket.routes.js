@@ -5,12 +5,23 @@ function connectSockets(io) {
     io.on('connection', socket => {
         console.log('connection!');
         //BOARD APP:
+        socket.on('board id', boardId=>{
+            if (socket.boardId) {
+                console.log('socket.boardId if:', socket.boardId)
+                socket.leave(socket.boardId)
+            }
+            socket.join(boardId)
+            socket.boardId = boardId;
+            console.log('socket.boardId:', socket.boardId)
+        
+        })
+
         socket.on('update board',board=>{
-            socket.broadcast.emit('updated board',board)
+            socket.broadcast.to(socket.boardId).emit('updated board',board)
         })
         
         socket.on('load boards',(boards)=>{
-            socket.broadcast.emit('load boards',boards)
+            socket.broadcast.to(socket.boardId).emit('load boards',boards)
         })
         //************* */
         //CHAT APP:
