@@ -1,10 +1,10 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const config  =  require('../config')
+const config = require('../config');
 
 module.exports = {
-    getCollection
-}
+	getCollection,
+};
 
 // Database Name
 const dbName = 'taskU_DB';
@@ -12,14 +12,14 @@ const dbName = 'taskU_DB';
 var dbConn = null;
 
 async function getCollection(collectionName) {
-    const db = await connect()
-    return db.collection(collectionName);
+	const db = await connect();
+	return db.collection(collectionName);
 }
 
 async function connect() {
     if (dbConn) return dbConn;
     try {
-        const client = await MongoClient.connect(config.dbURL, {useNewUrlParser: true});
+        const client = await MongoClient.connect(config.dbURL, {useNewUrlParser: true, useUnifiedTopology: true});
         const db = client.db(dbName);
         dbConn = db;
         return db;
@@ -28,7 +28,6 @@ async function connect() {
         throw err;
     }
 }
-
 
 
 
