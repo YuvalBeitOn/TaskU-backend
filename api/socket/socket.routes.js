@@ -13,15 +13,6 @@ function connectSockets(io) {
         })
         socket.on('deletePrivateSocket', socketService.deletePrivateSocket)
 
-
-        //BOARD APP:
-        socket.on('update board', (board => {
-            socketService.updateBoard(board, socket)
-        }))
-        socket.on('load boards', boards => {
-            socketService.loadBoards(boards, socket)
-        })
-
         //************* */
         //CHAT APP:
         socket.on('chat newMsg', msg => {
