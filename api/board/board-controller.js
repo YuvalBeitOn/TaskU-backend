@@ -3,7 +3,7 @@ const logger = require('../../services/logger.service');
 
 async function getBoard(req, res) {
   const board = await boardService.getById(req.params.id);
-  console.log('board:', board);
+  // console.log('board:', board);
   res.send(board);
 }
 
@@ -19,8 +19,10 @@ async function removeBoard(req, res) {
 }
 
 async function updateBoard(req, res) {
+  console.log('User in update board:', req.session);
   const board = req.body;
   await boardService.update(board);
+  // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080');
   res.send(board);
 }
 
