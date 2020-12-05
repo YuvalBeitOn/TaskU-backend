@@ -1,10 +1,10 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const config  =  require('../config')
+const config = require('../config');
 
 module.exports = {
-    getCollection
-}
+	getCollection,
+};
 
 // Database Name
 const dbName = 'taskU_DB';
@@ -12,8 +12,8 @@ const dbName = 'taskU_DB';
 var dbConn = null;
 
 async function getCollection(collectionName) {
-    const db = await connect()
-    return db.collection(collectionName);
+	const db = await connect();
+	return db.collection(collectionName);
 }
 
 async function connect() {
