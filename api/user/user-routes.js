@@ -12,3 +12,5 @@ router.post('/notif/:toUserId', notifyUser)
         
 
 module.exports = router
+
+
