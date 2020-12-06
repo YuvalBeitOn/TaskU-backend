@@ -1,14 +1,14 @@
 const dbService = require('../../services/db.service');
 const ObjectId = require('mongodb').ObjectId;
-
+const socketService = require('../socket/socket-service')
 module.exports = {
-    query,
-    getById,
-    getByEmail,
-    remove,
-    update,
-    add,
-    notifyUser
+	query,
+	getById,
+	getByEmail,
+	remove,
+	update,
+	add,
+	notifyUser
 }
 
 async function query(filterBy = {}) {
@@ -63,7 +63,6 @@ async function update(user) {
 
 	try {
 		await collection.updateOne({ _id: user._id }, { $set: user });
-		console.log('UPDATE: Update user', user);
 		return user;
 	} catch (err) {
 		console.log(`ERROR: cannot update user ${user._id}`)
@@ -72,24 +71,25 @@ async function update(user) {
 }
 
 async function add(user) {
-    user.notifications = [];
-    const collection = await dbService.getCollection('user')
-    try {
-        await collection.insertOne(user);
-        return user;
-    } catch (err) {
-        console.log(`ERROR: cannot insert user`)
-        throw err;
-    }
+	user.notifications = [];
+	const collection = await dbService.getCollection('user')
+	try {
+		await collection.insertOne(user);
+		return user;
+	} catch (err) {
+		console.log(`ERROR: cannot insert user`)
+		throw err;
+	}
 }
 
 async function notifyUser(notif) {
-    try {
-        const user = await getById(notif.toUserId)
-        user.notifications.unshift(notif)
-
-    } catch (err) {
-        throw err
-    }
-    _update(user)
+	console.log('notif in notifyUser in service', notif);
+	try {
+		const user = await getById(notif.toUserId)
+		user.notifications.unshift(notif)
+		await update(user)
+		socketService.insertUserNotif(notif)
+	} catch (err) {
+		throw err
+	}
 }

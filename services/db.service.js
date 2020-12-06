@@ -17,14 +17,17 @@ async function getCollection(collectionName) {
 }
 
 async function connect() {
-	if (dbConn) return dbConn;
-	try {
-		const client = await MongoClient.connect(config.dbURL, { useNewUrlParser: true });
-		const db = client.db(dbName);
-		dbConn = db;
-		return db;
-	} catch (err) {
-		// console.log('Cannot Connect to DB', err)
-		throw err;
-	}
+    if (dbConn) return dbConn;
+    try {
+        const client = await MongoClient.connect(config.dbURL, {useNewUrlParser: true, useUnifiedTopology: true});
+        const db = client.db(dbName);
+        dbConn = db;
+        return db;
+    } catch(err) {
+        // console.log('Cannot Connect to DB', err)
+        throw err;
+    }
 }
+
+
+

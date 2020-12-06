@@ -11,7 +11,7 @@ const io = require('socket.io')(http);
 
 // TaskU BackEnd: Express App Configuration
 app.use(cookieParser());
-app.use(bodyParser.json());
+app.use(bodyParser.json({limit: '50mb'}));
 app.use(
 	session({
 		secret: 'OrelGuYuval',

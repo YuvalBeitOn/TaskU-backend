@@ -1,6 +1,7 @@
 {
   "name": "tasku-newbackend",
   "version": "1.0.0",
+  "main": "db.service.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
