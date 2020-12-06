@@ -9,18 +9,16 @@ module.exports = {
 let privateSockets = {}
 
 function createPrivateSocket(userId, socket) {
-    if (privateSockets[userId]) console.log('private socket already exist:', userId);
-    else {
-        privateSockets[userId] = socket;
-        console.log(userId, 'got socket!');
-    }
+    privateSockets[userId] = socket;
+    console.log('user got connection!', userId)
+
 }
 
 function insertUserNotif(notif) {
     console.log('insert user notif runing');
     console.log(notif.toUserId);
     if (privateSockets[notif.toUserId]) {
-        console.log('has connection with userID');
+        console.log('has connection with ', notif.toUserId);
         privateSockets[notif.toUserId].emit('insertUserNotif', notif)
     } else {
         console.log('Insert user notif did not find ');
@@ -28,15 +26,15 @@ function insertUserNotif(notif) {
 }
 
 function emitBoardUpdates(board) {
-    console.log('board in socket <<<<<<<<<<:', board.members);
+    // console.log('board members in socket <<<<<<<<<<:', board.members);
     board.members.forEach(member => {
-        console.log(member,'Member in for each');
+        // console.log(member,'Member in for each');
         let isConnected = Object.keys(privateSockets).find(key => key === member._id)
         if (isConnected) {
             console.log('Found a connection in forEach');
             privateSockets[member._id].emit('update board', board)
         }
-        
+
     });
 }
 

@@ -15,14 +15,14 @@ async function login(req, res) {
 async function signup(req, res) {
 	try {
 		const { email, password, fullName, isAdmin } = req.body;
-		logger.debug(email + ', ' + fullName + ', ' + password);
+		// logger.debug(email + ', ' + fullName + ', ' + password);
 		const account = await authService.signup(email, password, fullName, isAdmin);
-		logger.debug(`Authentication SERVICE: new account created: ` + JSON.stringify(account));
+		// logger.debug(`Authentication SERVICE: new account created: ` + JSON.stringify(account));
 		const user = await authService.login(email, password);
 		req.session.user = user;
 		res.json(user);
 	} catch (err) {
-		logger.error('[SIGNUP] ' + err);
+		// logger.error('[SIGNUP] ' + err);
 		res.status(500).send({ error: 'Could not signup user, please try again later.' });
 	}
 }

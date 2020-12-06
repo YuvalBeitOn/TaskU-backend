@@ -1,5 +1,5 @@
 const boardService = require('./board-service');
-const logger = require('../../services/logger.service');
+// const logger = require('../../services/logger.service');
 
 async function getBoard(req, res) {
   const board = await boardService.getById(req.params.id);
@@ -9,7 +9,7 @@ async function getBoard(req, res) {
 
 async function getBoards(req, res) {
   const boards = await boardService.query(req.query.userId);
-  logger.debug(boards);
+  // logger.debug(boards);
   res.send(boards);
 }
 

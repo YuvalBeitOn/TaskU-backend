@@ -60,9 +60,9 @@ async function remove(userId) {
 async function update(user) {
 	const collection = await dbService.getCollection('user');
 	user._id = ObjectId(user._id);
-
+	console.log('user before update in service:', user);
 	try {
-		await collection.updateOne({ _id: user._id }, { $set: user });
+        await collection.updateOne({ _id: user._id }, { $set: user })
 		return user;
 	} catch (err) {
 		console.log(`ERROR: cannot update user ${user._id}`)
