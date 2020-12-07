@@ -1,6 +1,6 @@
 const dbService = require('../../services/db.service');
 const ObjectId = require('mongodb').ObjectId;
-const socketService = require('../socket/socket-service')
+const socketService = require('../socket/socket-service');
 
 module.exports = {
 	query,
@@ -48,9 +48,9 @@ async function update(board) {
 	board._id = ObjectId(board._id);
 	try {
 		console.log('Board SERVICE: Attempting update...');
-		const savedBoard = await collection.replaceOne({ _id: board._id }, board);
+		await collection.replaceOne({ _id: board._id }, board);
 		socketService.emitBoardUpdates(board)
-		return savedBoard;
+		return board;
 	} catch (err) {
 		console.log(`Board SERVICE - ERROR: Cannot update board ${board._id}`);
 		throw err;
