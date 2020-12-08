@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.aa165d6d4c784f2ada4d17b8439f150d.js"
+  "/precache-manifest.a65b91af887955cf497b54c2f8be26dc.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "TaskU"});
