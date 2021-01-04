@@ -19,9 +19,9 @@ async function removeBoard(req, res) {
 }
 
 async function updateBoard(req, res) {
-  console.log('User in update board:', req.session);
+  const actionUserId = req.session.user._id
   const board = req.body;
-  await boardService.update(board);
+  await boardService.update(board, actionUserId);
   // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080');
   res.send(board);
 }

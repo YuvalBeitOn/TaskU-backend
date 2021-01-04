@@ -43,13 +43,13 @@ async function remove(boardId) {
 	}
 }
 
-async function update(board) {
+async function update(board, actionUserId) {
 	const collection = await dbService.getCollection('board');
 	board._id = ObjectId(board._id);
 	try {
 		console.log('Board SERVICE: Attempting update...');
 		await collection.replaceOne({ _id: board._id }, board);
-		socketService.emitBoardUpdates(board)
+		socketService.emitBoardUpdates(board, actionUserId);
 		return board;
 	} catch (err) {
 		console.log(`Board SERVICE - ERROR: Cannot update board ${board._id}`);

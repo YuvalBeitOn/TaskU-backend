@@ -23,9 +23,10 @@ function insertUserNotif(notif) {
 	}
 }
 
-function emitBoardUpdates(board) {
+function emitBoardUpdates(board, actionUserId) {
+	console.log('The user I got on Socket Service is: ', actionUserId)
 	board.members.forEach((member) => {
-		let isConnected = Object.keys(privateSockets).find((key) => key === member._id);
+		let isConnected = Object.keys(privateSockets).find((key) => key === member._id && key !== actionUserId);
 		if (isConnected) {
 			console.log('Found a connection in forEach');
 			privateSockets[member._id].emit('update board', board);
